@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Footméd - Cuidado dos Seus Pés com Excelência</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: gold;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      background: #f9f9f9;
+      padding: 6rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #000;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      background: #eee;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 4px solid gold;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Footméd" />
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Cuidamos dos seus pés com Excelência</h1>
+    <p>Profissionais especializados em podologia para o seu bem-estar.</p>
+  </section>  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Footméd é uma clínica especializada em cuidados com os pés. Trabalhamos com dedicação e excelência, oferecendo tratamentos personalizados e tecnologia de ponta.</p>
+  </section>  <section id="servicos" class="services">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Podologia clínica</li>
+      <li>Tratamento de calosidades e unhas encravadas</li>
+      <li>Palmilhas personalizadas</li>
+      <li>Avaliação biomecânica</li>
+    </ul>
+  </section>  <section id="galeria">
+    <h2>Galeria</h2>
+    <p>(Inserir imagens da clínica e dos tratamentos aqui)</p>
+  </section>  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@footmed.pt</p>
+    <p>Telefone: ‪+351 912 345 678‬</p>
+    <p>Endereço: Rua da Podologia, 123 - Lisboa</p>
+    <p>Horário: Seg - Sex, 9h - 18h</p>
+  </section>  <footer>
+    <p>&copy; 2025 Footméd. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
